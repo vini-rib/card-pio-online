@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="banner">
+        <div class="banner-container">
+            <h1>Pizzaria Ratattulie</h1>
+            <p>A melhor pizza da região</p>
+            <nav>
+                <a href="#pizzas">Pizzas</a>
+                <a href="#bebidas">Bebidas</a>
+                <a href="#pedidos">Pedido</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Pizzas</h2>
+        <section id="Pizzas" class="categoria">
+            <div class="produto">
+                <img src="img/pizza-de-calabresa.png" alt="">
+                <h3>Pizza de Calabresa</h3>
+                <p>Molho de tomate artesanal, calabresa fatiada, muçarela derretida e orégano.</p>
+                <p>Tamanhos:(8 fatias)</p>
+                <span class="preco">R$ 45,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <img src="img/pizza-de-margherita.png" alt="">
+                <h3>Pizza Margherita</h3>
+                <p>Molho de tomate fresco, muçarela de búfala, manjericão e azeite de oliva.</p>
+                <p>Tamanhos:(8 fatias)</p>
+                <span class="preco">R$ 48,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <img src="img/pizza-de-frango_com_catupiry.png" alt="">
+                <h3>Pizza de Frango com Catupiry</h3>
+                <p>Molho de tomate, frango desfiado, catupiry cremoso e milho verde.</p>
+                <p>Tamanhos: (8 fatias)</p>
+                <span class="preco">R$ 50,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        </section>
+
+        <h2>Bebidas</h2>
+        <section id="Bebidas" class="categoria">
+            <div class="produto">
+                <img src="img/refris.png" alt="">
+                <h3>Refrigerantes latas</h3>
+                <p>Refrigerantes Coca-Cola,Fanta ,Kuat , Sprite(320 ml)</p>
+                <span class="preco">R$ 8,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <img src="img/sucos.png" alt="">
+                <h3>Sucos</h3>
+                <p>Sucos Naturais (300ml)</p>
+                <span class="preco">R$ 6,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+
+            <div class="produto">
+                <img src="img/chopp.png" alt="">
+                <h3>Chopps</h3>
+                <p>Chopps Gelados (720ml)</p>
+                <span class="preco">R$ 20,00</span>
+                <button class="adicionar">Adicionar</button>
+            </div>
+        </section>
+        
+        <section id="Pedido">
+            <h2>Seu Pedido</h2>
+            <ul id="lista-pedido">
+            
+            </ul>
+            <p id="total">Total: R$: 0,00</p>
+            <button id="finalizar-pedido">finalizar</button>
+        </section>
+
+        <section id="Contato"></section>
+        <h2>Contatos</h2>
+    </main>
+    <footer>&copy Pizzaria Folgaréu</footer>
+</body>
+<script src="carrinhho.js"></script>
+</html>
